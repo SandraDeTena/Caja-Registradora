@@ -1,0 +1,9 @@
+.productos {
+    display: flex;
+}
+
+.producto {
+    width: 100px;
+    background-color: mediumturquoise;
+    border:3px solid salmon;
+}
