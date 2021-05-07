@@ -33,9 +33,12 @@ export class AppComponent {
       { nombre: 'Rueda', precio: 12.50, imagen: 'https://247481-765666-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/09/Copa-D.O.-Rueda.jpg' },
 
       { nombre: 'Azpilucueta', precio: 17.80, imagen: 'https://www.azpilicueta.com/sites/default/files/styles/cropper/public/Qu%C3%A9%20son%20los%20vinos%20de%20autor.jpg?itok=eYMSLxnq' }
-    ]
+    ];
 
   }
+
+  onSeleccionProducto($event) {
+    console.log($event);
+  }
+
 }
-
-

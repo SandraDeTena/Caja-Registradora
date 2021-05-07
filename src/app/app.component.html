@@ -1,7 +1,8 @@
 <div class="container">
     <div class="row">
         <div class="col-8">
-            <lista-productos titulo="COMIDA" [productos]="arrProductosComida">
+            <lista-productos titulo="COMIDA" [productos]="arrProductosComida"
+                (seleccionProducto)='onSeleccionProducto($event)'>
             </lista-productos>
             <lista-productos titulo="BEBIDA" [productos]="arrProductosBebida">
             </lista-productos>
