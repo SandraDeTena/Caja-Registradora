@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Producto } from './interface-productos';
 
 @Component({
@@ -11,14 +11,18 @@ export class ListaProductosComponent implements OnInit {
   @Input() titulo: string;
   @Input() productos: Producto[];
 
+  @Output() seleccionProducto: EventEmitter<Producto>; //En nuestro caso es un Producto entero que ya lo hemos realizado a partir de la interface. Ya está DECLARADO.
 
-  constructor() { }
+
+  constructor() {
+    this.seleccionProducto = new EventEmitter();//¿Cuándo quiero emitir el producto? Cuando haga el click
+  }
 
   ngOnInit(): void {
   }
 
   onClick(pProducto: Producto) {
-    console.log(pProducto);
+    this.seleccionProducto.emit(pProducto);
 
 
   }
