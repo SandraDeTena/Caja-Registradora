@@ -17,4 +17,10 @@ export class ListaProductosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClick(pProducto: Producto) {
+    console.log(pProducto);
+
+
+  }
+
 }
