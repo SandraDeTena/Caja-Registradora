@@ -18,7 +18,7 @@ export class AppComponent {
 
       { nombre: 'Cocido Madrileño', precio: 10, imagen: 'https://lacocinademasito.com/wp-content/uploads/cocido-madrile%C3%B1o-2-1.jpg' },
 
-      { nombre: 'Bizcocho de Plátano', precio: 4, imagen: 'https://www.pequerecetas.com/wp-content/uploads/2015/01/Bizcocho-de-platano.jpg' },
+      { nombre: 'Bizcocho de Plátano', precio: 4, imagen: 'https://bizcochospedia.com/imagenes/bizcocho-de-platano-y-yogur-625x307.jpeg' },
 
       { nombre: 'Yasikoba de Pollo y Verduras', precio: 6, imagen: 'https://www.cocinayvino.com/wp-content/uploads/2017/09/chicken-yakisoba-17-768x1152-e1506626630169.jpg' }
 
@@ -26,13 +26,13 @@ export class AppComponent {
 
     ]
     this.arrProductosBebida = [
-      { nombre: 'Coca.Cola- Zero', precio: 1.20, imagen: 'https://st3.sedovin.com/4807-large_default/pack-coca-cola-zero-24-latas.jpg' },
+      { nombre: 'Coca.Cola- Zero', precio: 1.20, imagen: 'http://www.redstudio.es/wp-content/uploads/2017/05/1495706496_la-cocacola-vuelve-a-ser-roja-redstudio-blog.jpg' },
 
-      { nombre: 'Smoothie de Manzana', precio: 3, imagen: 'https://biotrendies.com/wp-content/uploads/2015/07/Smoothie-de-manzana-y-especias.jpg' },
+      { nombre: 'Smoothie de Manzana', precio: 3, imagen: 'https://smoothies.com.es/img/smoothie-de-manzana-196.jpg' },
 
-      { nombre: 'Rueda', precio: 12.50, imagen: 'https://cestas-marti.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/2/0/2020-v-32.jpg' },
+      { nombre: 'Rueda', precio: 12.50, imagen: 'https://247481-765666-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2020/09/Copa-D.O.-Rueda.jpg' },
 
-      { nombre: 'Azpilucueta', precio: 17.80, imagen: 'https://i1.wp.com/marianomadrueno.es/wp-content/uploads/cm/azpilicueta-vino-tinto-crianza-rioja3.png?fit=1271%2C2125&ssl=1' }
+      { nombre: 'Azpilucueta', precio: 17.80, imagen: 'https://www.azpilicueta.com/sites/default/files/styles/cropper/public/Qu%C3%A9%20son%20los%20vinos%20de%20autor.jpg?itok=eYMSLxnq' }
     ]
 
   }

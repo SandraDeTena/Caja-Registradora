@@ -1,9 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lista {
+    background-color: aquamarine;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
+
 .productos {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .producto {
-    width: 100px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
     background-color: mediumturquoise;
     border:3px solid salmon;
+}
+
+.producto img {
+    width: 100%;
 }
